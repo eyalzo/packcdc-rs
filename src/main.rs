@@ -2,7 +2,7 @@ use std::thread;
 use std::time::{Duration, Instant};
 use rand::distributions::{Distribution, Uniform};
 use rand::{rngs::SmallRng, SeedableRng};
-use temp2::PackCDC;
+use packcdc::PackCDC;
 
 fn generate_buffer(size: usize) -> Vec<u8> {
     let mut rng = SmallRng::seed_from_u64(1);

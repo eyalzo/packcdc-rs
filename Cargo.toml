@@ -1,9 +1,17 @@
 [package]
-name = "temp2"
+name = "packcdc"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "packcdc"
+path = "src/lib.rs"
+
+[[bin]]
+name = "packcdc_example"
+path = "src/main.rs"
 
 [dependencies]
 rand = { version = "0.8.5", features = [ "small_rng" ] }
