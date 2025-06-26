@@ -14,4 +14,5 @@ name = "packcdc_example"
 path = "src/main.rs"
 
 [dependencies]
+colored = "3.0.0"
 rand = { version = "0.8.5", features = [ "small_rng" ] }
